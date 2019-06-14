@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Calculator Widget</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="app.js"></script>
+
+</head>
+
+<body id="body">
+  <div id="calculator">
+
+  <input id="textView" placeholder="0" type="text" autofocus pattern="\d*" >
+    <div class="calculator-buttons">
+      <button class="calc-button number" data-value="1" id="one">1</button>
+      <button class="calc-button number" data-value="2" id="two">2</button>
+      <button class="calc-button number" data-value="3" id="three">3</button>
+      <button class="calc-button operator" data-value="/" id="divide">/</button>
+      <button class="calc-button number" data-value="4" id="four">4</button>
+      <button class="calc-button number" data-value="5" id="five">5</button>
+      <button class="calc-button number" data-value="6" id="six">6</button>
+      <button class="calc-button operator" data-value="*" id="multiply">*</button>
+      <button class="calc-button number" data-value="7" id="seven">7</button>
+      <button class="calc-button number" data-value="8" id="eight">8</button>
+      <button class="calc-button number" data-value="9" id="nine">9</button>
+      <button class="calc-button operator" data-value="-" id="subtract">-</button>
+      <button class="calc-button clear" data-value="C" id="clear">C</button>
+      <button class="calc-button number" data-value="0" id="zero">0</button>
+      <button class="calc-button" data-value="." id="decimal">.</button>
+      <button class="calc-button operator" data-value="+" id="add">+</button>
+        <button  data-value="DEL" id="del">DEL</button>
+      <button class="calc-button" data-value="=" id="equals">=</button>
+    </div>
+</div>
+
+
+</body>
+
+</html>
